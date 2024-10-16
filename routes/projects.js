@@ -23,7 +23,6 @@ router.get('/projects/:projectId', function(req, res, next) {
                 name: element.name,
                 id: element.id,
                 client: element.client,
-                year: element.year,
                 role: element.role,
                 technologies: element.technologies,
                 github: element.github,

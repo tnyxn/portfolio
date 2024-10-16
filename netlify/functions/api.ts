@@ -1,6 +1,9 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
+import express from 'express';
+import serverless from 'serverless-http';
+
+import createError from 'http-errors';
+import path from 'path';
+
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
@@ -56,3 +59,6 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+
+export const handler = serverless(app);
