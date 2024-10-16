@@ -3,14 +3,23 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "watch": "nodemon --ext js,css,pug"
   },
   "dependencies": {
+    "@netlify/functions": "^2.8.2",
+    "@types/express": "^5.0.0",
     "cookie-parser": "~1.4.5",
-    "debug": "~4.1.1",
-    "express": "~4.17.1",
+    "debug": "^4.3.7",
+    "express": "^4.21.1",
     "http-errors": "~1.6.2",
     "morgan": "~1.10.0",
-    "pug": "3.0.0"
+    "pug": "^3.0.3",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^3.1.7"
   }
 }

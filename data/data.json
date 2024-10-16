@@ -6,7 +6,7 @@
     "year": 2018,
     "role": "Web Design & Development",
     "technologies": ["HTML5", "CSS3", "JavaScript", "Node", "Express", "Pug"],
-    "github": "https://github.com/wooblup/le-voyageur-mignon",
+    "github": "https://github.com/tnyxn/le-voyageur-mignon",
     "photos": ["le-vm01.png", "le-vm02.png"],
     "background": "le-vm-tn.png",
     "description": "The goal for this project was to design, build and publish a small website to a live environment other than localhost. We could choose any topic for our website, so I chose to build a travel blog. Le Voyageur Mignon uses Express to route users to different areas of the website, and uses Pug as the main templating engine to build the different HTML pages."
@@ -43,7 +43,6 @@
     "description": "Wrist Racer was a fun project I worked on as a student in the Web Design & Interactive Media program at Humber College. It is a 2d racing game built for the Apple Watch. Working with two designers and one other developer, we wanted to explore new technologies, and decided on building a game for the Apple Watch."
   }],
   "aboutMe": [
-    "Hello. My name is Tony Nguyen, a front-end web developer based in Toronto. When I'm not working, I enjoy trying new food and drinks with friends, and daydreaming about my next vacation. My dream career is to work for a studio to create beautiful experiences using clean, elegant code for a wide range of clients.",
-    "A recent graduate of Humber College, I've shown the expertise to design and develop fully-deployed web experiences, and my work has been recognized enough to be showcased to my fellow peers."
+    "Experienced Web Developer with a demonstrated history of working in the higher education industry and in a government agency environment."
   ]
 }
